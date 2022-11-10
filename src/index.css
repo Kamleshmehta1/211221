@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.render-container {
+  border: 1px solid black;
+  width: 50%;
+  margin: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  height: 90vh;
+  width: 50%;
+  margin: 100px auto 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+.formContainer {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.formInput {
+  flex: 85%;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+.formInput:focus {
+  outline: none !important;
+  border: 1px solid #3e81ba;
+  color: gray;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  box-shadow: 0 0 10px #3e81ba;
+}
+
+.formInput::placeholder {
+  font-weight: bold;
+}
+
+.addBtn {
+  flex: 15%;
+  cursor: pointer;
+  outline: none !important;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #49a019;
+  border: 1px solid #ccc;
+  border-radius: 0 4px 4px 0;
+}
+
+.renderContainer {
+  width: 60%;
+
+  margin: auto;
+}
+
+.renderSubContainer {
+  display: flex;
+  flex: wrap;
+}
+
+li {
+  flex: 93%;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 4px;
+  margin: 10px;
+  background-color: #343a40;
+  color: #fff;
+  border-radius: 5px;
+}
+button {
+  cursor: pointer;
+}
+
+.checkTodo {
+  flex: 2%;
+  width: 15px;
+  margin: 20px 0 20px 0;
+  height: 15px;
+  cursor: pointer;
+}
+
+.actionContainer {
+  flex: 5%;
+}
+
+.childUl {
+  width: 80%;
+  margin: auto;
+}
